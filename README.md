@@ -8,4 +8,6 @@ Was ich dabei gelernt habe und für wichtiger halte als jede Technologieliste: D
 
 n8n-production — meine produktiven Workflows, die Serverkonfiguration und die Betriebsdokumentation dazu. Bereinigt um Zugangsdaten, sonst unverändert.
 
+Dort liegt auch der Mahnlauf, gebaut für einen erfundenen Betrieb mit erfundenen Kunden: Er gleicht jeden Werktag die offenen Rechnungen mit dem letzten Kontoauszug ab und erinnert, wer noch nicht gezahlt hat. Eine Mahnung an jemanden, der längst überwiesen hat, kostet mehr Vertrauen als eine zu spät verschickte. Deshalb liest er unmittelbar vor jeder Mail den Zahlstand neu, verschickt nur feste Textbausteine, eine Mahnung erst nach Freigabe, und meldet, was er nicht sicher zuordnen kann, statt es zu entscheiden. Im veröffentlichten Stand ist der Versand an Kunden gesperrt; vorgesehen ist, dass er zuerst einige Wochen nur berichtet, was er verschickt hätte: [workflows/mahnlauf](https://github.com/eliasr58/n8n-production/tree/main/workflows/mahnlauf).
+
 Erreichbar unter roehrner.eu.
