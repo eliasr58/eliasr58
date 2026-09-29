@@ -12,4 +12,6 @@ Dort liegt auch der Mahnlauf, gebaut für einen erfundenen Betrieb mit erfundene
 
 Daneben die Wartungserinnerung, ebenfalls für einen erfundenen Betrieb: Sie schreibt Bestandskunden vor der fälligen Wartung ein Angebot aus festen Textbausteinen und lässt Antworten von Claude nur einordnen — ein Widerspruch sperrt den Kunden sofort und dauerhaft, im Zweifel an einem Widerspruch wird gesperrt, und die KI schreibt nie an Kunden: [workflows/wartungserinnerung](https://github.com/eliasr58/n8n-production/tree/main/workflows/wartungserinnerung).
 
+Dazu die Bewertungsantworten, ebenfalls für einen erfundenen Betrieb: Claude entwirft Antworten auf Online-Bewertungen, veröffentlicht wird nur der Text, den der Betrieb im Blatt freigegeben hat — unmittelbar vorher neu gelesen und vom Code noch einmal geprüft; die KI veröffentlicht nie selbst. In dieser Fassung antworten sie in ein nachgebautes Google-Profil, der Weg zu Google ist vorbereitet, aber nicht gebaut: [workflows/bewertungsantworten](https://github.com/eliasr58/n8n-production/tree/main/workflows/bewertungsantworten).
+
 Erreichbar unter roehrner.eu.
