@@ -6,7 +6,7 @@ Mein Werkzeug ist n8n auf einem eigenen Hetzner-Server: Docker Compose, Postgres
 
 Was ich dabei gelernt habe und für wichtiger halte als jede Technologieliste: Den Ist-Zustand messen, statt ihn aus der Dokumentation abzuleiten. Als ich meine Absicherung einmal gegen den laufenden Server geprüft habe statt gegen meine Konfigurationsdatei, war sie vollständig umgehbar. Seitdem schließe ich jede Änderung mit einem Nachweis ab, der ohne sie fehlgeschlagen wäre.
 
-n8n-production — meine produktiven Workflows, die Serverkonfiguration und die Betriebsdokumentation dazu. Bereinigt um Zugangsdaten, sonst unverändert.
+n8n-production — meine Workflows aus der eigenen n8n-Instanz, die Serverkonfiguration und die Betriebsdokumentation dazu. Bereinigt um Zugangsdaten, sonst unverändert; was davon produktiv läuft, steht bei jedem Workflow dabei.
 
 Dort liegt auch der Mahnlauf, gebaut für einen erfundenen Betrieb mit erfundenen Kunden: Er gleicht jeden Werktag die offenen Rechnungen mit dem letzten Kontoauszug ab und erinnert, wer noch nicht gezahlt hat. Eine Mahnung an jemanden, der längst überwiesen hat, kostet mehr Vertrauen als eine zu spät verschickte. Deshalb liest er unmittelbar vor jeder Mail den Zahlstand neu, verschickt nur feste Textbausteine, eine Mahnung erst nach Freigabe, und meldet, was er nicht sicher zuordnen kann, statt es zu entscheiden. Im veröffentlichten Stand ist der Versand an Kunden gesperrt; vorgesehen ist, dass er zuerst einige Wochen nur berichtet, was er verschickt hätte: [workflows/mahnlauf](https://github.com/eliasr58/n8n-production/tree/main/workflows/mahnlauf).
 
